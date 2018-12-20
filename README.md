@@ -1,7 +1,6 @@
 csi
 ==============================
-
-thesis project. This project contains everything regarding a master thesis project. Subject is an investigation into differences between crime scene experts and novices based on eyetracking data. It is the final project for the master's in data science: Business and GGovernance
+This project contains everything regarding a master thesis project. Subject is an investigation into differences between crime scene investigators (experts vs novices) based on eyetracking data.
 
 Project Organization
 ------------
