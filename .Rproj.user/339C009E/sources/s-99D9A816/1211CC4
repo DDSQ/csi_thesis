@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1544216887286.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1211CC4",
+    "lastKnownWriteTime" : 1544276054,
+    "last_content_update" : 1544276054531,
+    "path" : "~/thesis/csi_thesis/comparisons expert and novice.R",
+    "project_path" : "comparisons expert and novice.R",
+    "properties" : {
+        "cursorPosition" : "52,36",
+        "scrollLine" : "46",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

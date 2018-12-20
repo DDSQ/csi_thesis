@@ -1,0 +1,73 @@
+#libraries
+library('dplyr')
+library( tidyr )
+library( dplyr )
+library( caret )
+library( lattice )
+library( ggplot2 ) 
+library(gridExtra)
+library(plyr)
+
+img <- read.csv('localcb.csv')
+
+img$X <- NULL
+img$image <- as.factor(img$image)
+img$measure <- as.factor(img$measure)
+img<- img[img$image != 4,]
+
+img$importance = format(img$importance, digits = 1)
+img$importance <- as.numeric(img$importance)
+
+
+??mapvalues
+img$measure <- mapvalues(img$measure, 
+                         from = c("redundant_fixdur", 
+                                  "redundant_fixnum",
+                                  "relevant_fixdur",
+                                  "relevant_fixnum"),
+                         to = c( "fixation duration (non evidence)", 
+                                 'number of fixations (non evidence)',
+                                 'fixation duration (evidence)',
+                                 'number of fixations (evidence)'))
+
+t = ggplot(data = img, aes(x = reorder(measure, -importance) , y = importance, fill = measure, label =(importance)))+
+  geom_bar(stat = 'identity')+
+  geom_text(size = 4, nudge_y = 0.05)+
+  theme(axis.title.x = element_blank(),
+        axis.text.x = element_blank(),
+        axis.ticks.x = element_blank())+
+  labs(y = 'Importance', title = "Relative feature importance per image on Change blindness task", fill = 'Eye Movements')
+
+t + facet_wrap(.~image)
+
+# -------------eye local importance
+
+
+eye = read.csv('eye_imp.csv')
+
+eye$X <- NULL
+eye$image <- as.factor(eye$image)
+eye$measure <- as.factor(eye$measure)
+
+eye$importance = format(eye$importance, digits = 1)
+eye$importance <- as.numeric(eye$importance)
+
+eye$measure <- mapvalues(eye$measure, 
+                         from = c("redundant_fixdur", 
+                                  "redundant_fixnum",
+                                  "relevant_fixdur",
+                                  "relevant_fixnum"),
+                         to = c( "fixation duration (non evidence)", 
+                                 'number of fixations (non evidence)',
+                                 'fixation duration (evidence)',
+                                 'number of fixations (evidence)'))
+
+t = ggplot(data = eye, aes(x = reorder(measure, -importance) , y = importance, fill = measure, label = (importance)) )+
+  geom_col()+
+  theme(axis.title.x = element_blank(),
+        axis.text.x = element_blank(),
+        axis.ticks.x = element_blank())+
+  geom_text(size = 5, nudge_y = 0.05)+
+  labs(y = 'Importance', title = "Relative feature importance per image on crime scene inspection task", fill = 'Eye Movements')
+
+t + facet_wrap(.~image, nrow = 2)

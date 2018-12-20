@@ -1,0 +1,9 @@
+{
+    "path" : "~/thesis/csi_thesis/data",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

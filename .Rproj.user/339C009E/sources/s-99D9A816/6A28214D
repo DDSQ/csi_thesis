@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1545235632338.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "6A28214D",
+    "lastKnownWriteTime" : 1544193101,
+    "last_content_update" : 1545235829823,
+    "path" : "~/thesis/csi_thesis/visualizations prediction.R",
+    "project_path" : "visualizations prediction.R",
+    "properties" : {
+        "cursorPosition" : "38,31",
+        "scrollLine" : "36",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

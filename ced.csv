@@ -1,0 +1,81 @@
+,measure,value,experience
+0,evidence,406.875,novice
+1,evidence,331.88709677419354,novice
+2,evidence,326.57272727272726,novice
+3,evidence,315.6794871794872,novice
+4,evidence,420.93333333333334,novice
+5,evidence,353.38953488372096,novice
+6,evidence,330.40441176470586,novice
+7,evidence,411.65486725663715,novice
+8,evidence,346.7358490566038,novice
+9,evidence,343.4746835443038,novice
+10,evidence,285.468085106383,novice
+11,non evidence,409.52796420581655,novice
+12,non evidence,351.1726457399103,novice
+13,non evidence,290.5230769230769,novice
+14,non evidence,316.5887323943662,novice
+15,non evidence,389.7752808988764,novice
+16,non evidence,316.1334792122538,novice
+17,non evidence,356.37857142857143,novice
+18,non evidence,405.85060240963855,novice
+19,non evidence,302.74657534246575,novice
+20,non evidence,316.6589698046181,novice
+21,non evidence,290.311320754717,novice
+22, evidence,112.0,novice
+23, evidence,124.0,novice
+24, evidence,110.0,novice
+25, evidence,78.0,novice
+26, evidence,120.0,novice
+27, evidence,172.0,novice
+28, evidence,136.0,novice
+29, evidence,113.0,novice
+30, evidence,106.0,novice
+31, evidence,158.0,novice
+32, evidence,141.0,novice
+33, non evidence,447.0,novice
+34, non evidence,446.0,novice
+35, non evidence,260.0,novice
+36, non evidence,355.0,novice
+37, non evidence,445.0,novice
+38, non evidence,457.0,novice
+39, non evidence,420.0,novice
+40, non evidence,415.0,novice
+41, non evidence,438.0,novice
+42, non evidence,563.0,novice
+43, non evidence,424.0,novice
+44,evidence,350.824,expert
+45,evidence,347.40579710144925,expert
+46,evidence,438.05737704918033,expert
+47,evidence,435.546875,expert
+48,evidence,359.52222222222224,expert
+49,evidence,393.51666666666665,expert
+50,evidence,363.84615384615387,expert
+51,evidence,412.1609195402299,expert
+52,evidence,373.5147928994083,expert
+53,non evidence,337.4152380952381,expert
+54,non evidence,353.73558648111333,expert
+55,non evidence,369.5806451612903,expert
+56,non evidence,428.7474226804124,expert
+57,non evidence,359.5401662049861,expert
+58,non evidence,370.50354609929076,expert
+59,non evidence,353.4756097560976,expert
+60,non evidence,392.0086705202312,expert
+61,non evidence,361.05405405405406,expert
+62, evidence,125.0,expert
+63, evidence,138.0,expert
+64, evidence,122.0,expert
+65, evidence,64.0,expert
+66, evidence,90.0,expert
+67, evidence,120.0,expert
+68, evidence,78.0,expert
+69, evidence,87.0,expert
+70, evidence,169.0,expert
+71, non evidence,525.0,expert
+72, non evidence,503.0,expert
+73, non evidence,341.0,expert
+74, non evidence,194.0,expert
+75, non evidence,361.0,expert
+76, non evidence,423.0,expert
+77, non evidence,246.0,expert
+78, non evidence,346.0,expert
+79, non evidence,555.0,expert

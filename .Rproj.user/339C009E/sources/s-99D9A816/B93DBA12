@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1543708746134.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "B93DBA12",
+    "lastKnownWriteTime" : 1544036294,
+    "last_content_update" : 1544036294731,
+    "path" : "~/thesis/csi_thesis/visualizations.R",
+    "project_path" : "visualizations.R",
+    "properties" : {
+        "cursorPosition" : "363,49",
+        "scrollLine" : "171",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

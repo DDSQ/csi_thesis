@@ -1,0 +1,91 @@
+library( tidyr )
+library( dplyr )
+library( caret )
+library( lattice )
+library( ggplot2 ) 
+library(gridExtra)
+
+# csi set
+p_csi = read.csv('prediction_csi.csv')
+p_cb = read.csv('pred_cb.csv')
+
+
+
+
+p_cb$X <- NULL
+p_csi$X <- NULL
+# set to factor and numeric
+p_csi$score = format(p_csi$score, digits = 3)
+p_csi$score<- as.numeric(p_csi$score)
+p_csi$model <- as.factor(p_csi$model)
+p_csi$fase <- as.factor(p_csi$fase)
+
+# set to factor and numeric
+p_cb$score = format(p_cb$score, digits = 3)
+p_cb$score<- as.numeric(p_cb$score)
+p_cb$model <- as.factor(p_cb$model)
+p_cb$fase <- as.factor(p_cb$fase)
+
+cb = ggplot(data = p_cb, aes(x = model, y = score, fill = fase, label = score))+
+  geom_col(position = 'dodge')+
+  theme(plot.title = element_text(size=11), axis.title = element_text(size = 10))+
+  geom_text(size = 3, nudge_y = 0.05)+
+  theme_classic()+
+  labs(x = "change blindness task", y= 'score')+
+  scale_fill_discrete(guide = FALSE)+
+  scale_y_continuous(limits = c(0,1))+
+  
+
+csi = ggplot(data = p_csi, aes(x = model, y = score, fill = fase, label = score))+
+  geom_col(position = 'dodge')+
+  theme(plot.title = element_text(size=11), axis.title = element_text(size = 10))+
+  geom_text(size = 3, nudge_y = 0.05)+
+  theme_classic()+
+  labs(x = "crime scene inspection task", y= 'score')+
+  scale_fill_discrete(name = "Train/Test")+
+  scale_y_continuous(limits = c(0,1))
+
+grid.arrange(csi, cb, ncol= 2)
+
+# prediction per image
+
+change <- read.csv('change.csv')
+
+change$X <- NULL
+csi$X <- NULL
+# set to factor and numeric
+change$score<- as.numeric(change$score)
+change$image <- as.factor(change$image)
+change$measure <- as.factor(change$measure)
+
+#crime <- read.csv('change.csv')
+ob <- list()
+for (i in  unique(change$image))
+  local({
+  i <- i
+plt <- ggplot(data = change[change$image == i,], aes(x = measure, y = score, fill = measure, label = (score)))+
+    geom_col(position = 'dodge')+
+    theme(plot.title = element_text(size=11), axis.title = element_text(size = 10))+
+    geom_text(size = 3, nudge_y = 0.05)+
+    theme_classic()+
+    labs(x = "crime scene inspection task", y= 'score', title = as.character(i))+
+    scale_fill_discrete(name = "Train/Test performance")+
+    scale_y_continuous(limits = c(0,1))  
+  ob[[i]] <<- plt
+})
+grid.arrange(ob)
+
+plt = function(data,column)
+  ggplot(data = change[change$image == i,], aes(x = measure, y = score, fill = measure, label = (score)))+
+  geom_col(position = 'dodge')+
+  theme(plot.title = element_text(size=11), axis.title = element_text(size = 10))+
+  geom_text(size = 3, nudge_y = 0.05)+
+  theme_classic()+
+  labs(x = "crime scene inspection task", y= 'score', title = as.character(i))+
+  scale_fill_discrete(name = "Train/Test performance")+
+  scale_y_continuous(limits = c(0,1))  
+  
+
+?lapply(
+)
+

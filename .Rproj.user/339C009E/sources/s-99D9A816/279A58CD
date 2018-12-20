@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1545234689600.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "279A58CD",
+    "lastKnownWriteTime" : 1544193098,
+    "last_content_update" : 1545235494352,
+    "path" : "~/thesis/csi_thesis/knn predictions.R",
+    "project_path" : "knn predictions.R",
+    "properties" : {
+        "cursorPosition" : "52,55",
+        "scrollLine" : "34",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

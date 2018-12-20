@@ -1,0 +1,1357 @@
+]0;~/thesis/csi_thesis[?1034hww130258:csi_thesis user$ [Kww130258:csi_thesis user$ ls
+LICENSE						references
+Makefile					reports
+README.md					requirements.txt
+csi_thesis.Rproj				setup.py
+data						src
+docs						test_environment.py
+models						tox.ini
+notebooks					visualizations.R
+packages					visualizations_preprocessing_changeblindness.R
+[KDecio-2:csi_thesis user$ ls
+All Eyes on the Evidence 3.docx			models
+Correlation between features CB.png		modules.py
+LICENSE						notebooks
+Makefile					one.csv
+README.md					packages
+__pycache__					pix.pkl
+cb_rep.pkl					references
+ced_blind.pkl					reports
+change_blind.pkl				requirements.txt
+change_minmax.png				save.p
+change_standard.png				score_tree_cb.pkl
+csi_thesis.Rproj				setup.py
+data						src
+docs						test_environment.py
+eye_new.pkl					tox.ini
+eyelink correlation.png				visualizations.R
+feature importance EYE.png			visualizations_preprocessing_changeblindness.R
+feature_importance global.png
+]0;~/thesis/csi_thesisDecio-2:csi_thesis user$ cd ..
+]0;~/thesisDecio-2:thesis user$ ls
+csi_thesis
+]0;~/thesisDecio-2:thesis user$ cd ..
+]0;~Decio-2:~ user$ ls
+1.What-is-Probability.ipynb				Python for data-analysis testbook.ipynb
+1411 alles in een functie groepsopdracht.ipynb		Python tricks.ipynb
+2.What-is-Statistics?.ipynb				Rplot.png
+2b_Vectorization-noAnswers (3).ipynb			SGD_NAG.ipynb
+3.Long-term-frequencies.ipynb				Schekermans_Yorick.py
+3c_OLS_Regression_noSolutions (1).ipynb			TH3.R
+4.The-Three-card-Puzzle.ipynb				Thesis RQ1 deel 2.ipynb
+4_Sparse_Arrays_noAnswers (1).ipynb			Thesis experiment.ipynb
+5_Distance-noAnswers (1).ipynb				Thesis_RQ2.ipynb
+ADADELTA.ipynb						Thesis_RQ3.ipynb
+AnacondaProjects					Untitled.ipynb
+Applications						Untitled1.ipynb
+Assignment01_u283203_DaSilveiraQuiosa.R			Untitled2.ipynb
+Augmented Reality					Untitled3.ipynb
+Augmented Reality 					Untitled4.ipynb
+BP_Verkooppunten_Final#MOST_important-checkpoint.ipynb	Untitled5.ipynb
+BP_Verkooppunten_Final#clustering-checkpoint.ipynb	Untitled6.ipynb
+BPress_VerkoopID_clusters_code-checkpoint.ipynb		Untitled9.ipynb
+Change_blindness.ipynb					alles in een functie groepsopdracht (2).ipynb
+Change_blindness_dataset-Copy1.ipynb			anaconda
+Change_blindness_dataset.ipynb				anaconda3
+DDSQ.github.io						blabla.Rhtml
+DLPAPER 0.doc						blabla.html
+DLPAPER 7.doc						chapter 4.ipynb
+DLwithKeras2.ipynb					coco_val.txt
+DLwithKeras3.ipynb					cookiecutter-pypackage-minimal
+DLwithKeras6.ipynb					counts per feature.ipynb
+DaSilveiraQuiosa_Decio_Deeplearningexperiment.ipynb	counts per feature.ipynb copy
+Dasilveiraquiosa_decio					dasilveiraquiosa_decio (1).py
+Data_vis.ipynb						dasilveiraquiosa_decio.py
+Desktop							data.ipynb
+Documents						datacleaning.ipynb
+Downloads						decio_dasilveiraquiosa.ipynb
+Equations and math symbols for report.ipynb		deciodasilveiraquiosaU283203Practical3.ipynb
+Exploration thesis.ipynb				decisiontree google tutorial.ipynb
+Eyelink.ipynb						demo
+Eyelink_dataset.ipynb					descriptions.txt
+FEB2017							feedback des.docx
+Google Drive						functie_time.ipynb
+Group assignment (1).ipynb				gfortran-4.8.2-darwin13.tar.bz2
+Group assignment DPA..ipynb				heatmaps.ipynb
+Group+assignment+DPA. allesineenfunctie..ipynb		iCloud Drive (Archive)
+HOME ASSIGNMENT 1.R					index.html
+Heatmap.ipynb						iris.txt
+Heatmapping.ipynb					jup
+Het werkt.ipynb						learn
+Hw1_testing_notebook (1).ipynb				lsr practice.R
+Hw2_testing_notebook (1).ipynb				models.ipynb
+Kaggling_pandas.ipynb					modules.ipynb
+Library							mypolygon.py
+Lightworks						nltk_data
+ML challenge.ipynb					pix2pix
+MSI							populations.txt
+Movies							practice unit 6 anova.R
+Music							presentations
+NLP.ipynb						prob_stat_assignment_1.ipynb
+NLP_DP.ipynb						pu9.R
+Nieuwste functie.ipynb					pythonfiles
+OOP - notebook.ipynb					question_4_test_1.npy
+PC07 iterations.ipynb					quizMidterm.py
+Pictures						reseach seminar.R
+Practical 1 ML.ipynb					reveal.js
+Practice unit 6 Anova without exercises.R		revealpresentatie
+Preprocessing-Copy1.ipynb				schaffer.ipynb
+Preprocessing.ipynb					seaborn-data
+Presentatie Ordina					thesis
+Prob_stat.ipynb						tmp
+Public							untitled.txt
+PycharmProjects
+]0;~Decio-2:~ user$ cd Users
+bash: cd: Users: No such file or directory
+]0;~Decio-2:~ user$ cd /Users
+]0;/UsersDecio-2:Users user$ ls
+Guest	Shared	decio	des
+]0;/UsersDecio-2:Users user$ cd D[Kdecio
+]0;~Decio-2:~ user$ cd Downloads
+]0;~/DownloadsDecio-2:Downloads user$ ls
+0048733385900216.txt
+02 Bah.mp3
+02_Post.jpg
+02_Pre.jpg
+06022017 MSI Décio da Silveira Quiosa. a_aanvraagformulier_vrije_minor_zelf_samengesteld (1).docx
+06022017 MSI Décio da Silveira Quiosa. a_aanvraagformulier_vrije_minor_zelf_samengesteld.docx
+0_introduction(2) (1).ipynb
+0_introduction(2) (2).ipynb
+0_introduction(2).ipynb
+0_select_artworks.ipynb
+1 Wallwork - English for Writing Research Papers.pdf
+1-s2.0-S0272494409000759-mmc1.jpg
+10116043.pdf
+1120 Proefles Prince 2 Foundation p421B2.pdf
+1242-2-15067568-18-15-001.pdf
+125jaar_aanmeldingen.xls
+1411 alles in een functie groepsopdracht.ipynb
+15320145.pdf
+161-319-1-SM.pdf
+170201- Semester-Rooster-Minor-SI-V5 (1).xlsx - Minor17-feb-juni-rooster.pdf
+171106-Weekly.pdf
+177316534.pdf
+184818.pdf
+1_400-normal (1).png
+1_400-normal.png
+1_400-reverse.png
+1_Basic_Arrays_and_Data_Types_noAnswers (1) (1).ipynb
+1_Basic_Arrays_and_Data_Types_noAnswers (1).ipynb
+1_Basic_Arrays_and_Data_Types_noAnswers (2).ipynb
+1_Basic_Arrays_and_Data_Types_noAnswers (3).ipynb
+1_Basic_Arrays_and_Data_Types_noAnswers (4).ipynb
+1_Basic_Arrays_and_Data_Types_noAnswers.ipynb
+1_evaluation(1).ipynb
+1_evaluation_solved.ipynb
+2015-dmkd-preprint-sdnum.pdf
+20161231 Decio da Silveira Factuur GTT4 (1).pdf
+20161231 Decio da Silveira Factuur GTT4.pdf
+2017 Annual Report ING Bank.pdf
+20170310_163505 (1).jpg
+20170310_163505.jpg
+208912401 (1).pdf
+208912401.pdf
+209070402 (1).pdf
+209070402.pdf
+210494640.pdf
+211702141.pdf
+2262-8486-1-PB.pdf
+2363-8587-1-PB (1).pdf
+2363-8587-1-PB (2).pdf
+2363-8587-1-PB.pdf
+241287032.pdf
+241350209 (1).pdf
+241350209.pdf
+24879120_1431004696997420_1170538120_o.png
+259372238.pdf
+265448677 (1).pdf
+265448677.pdf
+288982323 (1).pdf
+288982323.pdf
+2_decision_trees_solved (1).ipynb
+2_decision_trees_solved.ipynb
+2a_Multidimensional_Arrays_noAnswers (1).ipynb
+2a_Multidimensional_Arrays_noAnswers (2).ipynb
+2a_Multidimensional_Arrays_noAnswers (3).ipynb
+2a_Multidimensional_Arrays_noAnswers.ipynb
+2b_Vectorization-noAnswers (1).ipynb
+2b_Vectorization-noAnswers (2).ipynb
+2b_Vectorization-noAnswers (3).ipynb
+2b_Vectorization-noAnswers (4).ipynb
+2b_Vectorization-noAnswers.ipynb
+2x2x2design (1).pdf
+2x2x2design.pdf
+3042-2-18089233-18-33-001.pdf
+3042-2-18099712-18-34-001.pdf
+3042-2-18108052-18-35-001.pdf
+360 Graden Feedbackformulier voor Décio da Silveira.docx
+3D Printing FDM.pdf
+3b_Linear_Algebra_noAnswers (1).ipynb
+3b_Linear_Algebra_noAnswers.ipynb
+3c_OLS_Regression_noSolutions (1).ipynb
+3c_OLS_Regression_noSolutions (2).ipynb
+3c_OLS_Regression_noSolutions.ipynb
+47B46D04-07B0-4F05-B639-253FB6402444.alias
+4_Pastapesto al studento.pdf
+4_Sparse_Arrays_noAnswers (1).ipynb
+4_Sparse_Arrays_noAnswers (2).ipynb
+4_Sparse_Arrays_noAnswers.ipynb
+5 kolommen model.doc
+5_Distance-noAnswers (1).ipynb
+5_Distance-noAnswers (2).ipynb
+5_Distance-noAnswers.ipynb
+637-907-4-PB (1).pdf
+637-907-4-PB.pdf
+66787386 Opheffen eenmanszaak (1).pdf
+66787386 Opheffen eenmanszaak (2).pdf
+66787386 Opheffen eenmanszaak.pdf
+67179_blackwhitefont-file.zip
+67179_d-bluered.zip
+67179_orange-blue.zip
+6_Pandas (1).ipynb
+6_Pandas.ipynb
+7584b3aa-cc53-44ea-a4fe-bdc76ea3cee4_Overzicht tentamendata.xlsx
+76ea38c0-1696-4263-8d08-7f7bec285a69 (1).pdf
+7_Plotting.ipynb
+86C3EEAB-34EA-411B-8CEF-A4F4B90D295D (1).alias
+86C3EEAB-34EA-411B-8CEF-A4F4B90D295D.alias
+ACJ 2017 Issue 1-Article 1.pdf
+ADADELTA.ipynb
+AdobeReader_dc_en_a_install.dmg
+All About Validity - Saskia Wools 2015.pdf
+All Eyes on the Evidence 0230.docx
+All Eyes on the Evidence 0235 (1).docx
+All Eyes on the Evidence 0235.docx
+All Eyes on the Evidence 0245.docx
+All Eyes on the Evidence 0260 (1).docx
+All Eyes on the Evidence 0260.docx
+All Eyes on the Evidence 0270.docx
+All Eyes on the Evidence 0500 (1).docx
+All Eyes on the Evidence 0500 (2).docx
+All Eyes on the Evidence 0500.docx
+All Eyes on the Evidence 0800.docx
+All Eyes on the Evidence 1.docx
+All Eyes on the Evidence 2.docx
+All Eyes on the Evidence 650.docx
+All study methods of Methodology.pdf
+AllFix (1).csv
+All_Scenes (1).csv
+All_Scenes.csv
+Analytics_for_Business_Assignment_3_Decio_da_Silveira_U283203_&_Jurgen_van_den_Hoogen_U919127.xlsx
+AnswersExamApril2016.pdf
+AnswersExaminationJune2016.pdf
+Arbochecklisten CB0001847 (1).pdf
+Arbochecklisten CB0001847 (2).pdf
+Arbochecklisten CB0001847.pdf
+Assignment 2 analytics Vannesa R Berhitoe.xlsx
+Assignment1 DPA (1).ipynb
+Assignment1 DPA (2).ipynb
+Assignment1 DPA.ipynb
+Assignment_1 Vannesa R Berhitoe u1263709 - Analytics Business Governance.xlsx
+Assignment_1_DemoScript(1).R
+Assignment_3_Vannesa_Snr1263709 (1).xlsx
+Assignment_3_Vannesa_Snr1263709.xlsx
+Assingment Reading - Bohner, G., & Schlüter, L.E. (2014). .PDF
+Atom 2.app
+Atom.app
+Auping_1-H264_1280x720.mp4
+BA_1e_Online_Data_ Files
+BA_1e_Online_Data_ Files 2
+BHV ROOSTER week 8.pdf
+BIT_EXAM.docx
+BIT_combined.pdf
+BP_Verkooppunten_Final#MOST_important-checkpoint.ipynb
+BP_Verkooppunten_Final#clustering-checkpoint.ipynb
+BPress_VerkoopID_clusters_code-checkpoint.ipynb
+BarNeta_VFI_emotion.pdf
+Bemiddelingsovereenkomst  BOVK  - Automatisch ondertekenen Consultant (1).pdf
+Bemiddelingsovereenkomst  BOVK  - Automatisch ondertekenen Consultant (2).pdf
+Bemiddelingsovereenkomst  BOVK  - Automatisch ondertekenen Consultant.pdf
+Bericht prestatiebeurs.pdf
+Bericht studiefinanciering (1).pdf
+Bericht studiefinanciering.pdf
+Bewijs_van_inschrijving-BVI-2017433-42826-2017.pdf
+Bijlage 1 Transcript of records Décio da Silveira Quiosa  (1).pdf
+Bijlage 2 Learning agreement decio da silveira.pdf
+Bijlage 3 Changes in Learning agreement .pdf
+Bijlage 4 Certificate of stay.jpeg
+Blog_Yorick_Schekermans_Data_collected_while_travelling_with_public_transport.pdf
+Blynk_Release_v0.4.6
+Blynk_Release_v0.4.6.zip
+Bootje
+Bootje.zip
+Brackets.Release.1.9.dmg
+Business-analytics-assignment-1_-Decio da Silveira u283203 and Jurgen van den Hoogen u919127 (1).xlsx
+Business-analytics-assignment-1_-Decio da Silveira u283203 and Jurgen van den Hoogen u919127 (2).xlsx
+Business-analytics-assignment-1_-Decio da Silveira u283203 and Jurgen van den Hoogen u919127.xlsx
+Business-analytics-assignment-2_-Decio da Silveira u283203 and Jurgen van den Hoogen u919127 (2).xlsx
+BusinessPlan.doc
+Business_analytics_assignment_2_Decio dat Silveira U283203 and Jurgen van den Hoogen U919127.xlsx
+CAO Uitzendkrachten ABU 2012-2017 januari 2017.pdf
+CH34x_Install_V1.3
+CH34x_Install_V1.3.zip
+CSI (1).pdf
+CSI (2).pdf
+CSI (3).pdf
+CSI.pdf
+CSV file Body image survey.csv
+CV 3.pdf
+CV2017DecioDaSilveira.pdf
+Capture.JPG
+Case study data science v.final-am _3_.docx
+Changes in LA Décio da Silveira.pdf
+Changes in learning agreement.docx
+Children’s Nonverbal Displays of Winning and Losing Effects of Social and Cultural Contexts on Smiles (1).pdf
+Children’s Nonverbal Displays of Winning and Losing Effects of Social and Cultural Contexts on Smiles.pdf
+CodeCogsEqn (1).png
+CodeCogsEqn (2).png
+CodeCogsEqn (3).png
+CodeCogsEqn (4).png
+CodeCogsEqn (5).png
+CodeCogsEqn (6).png
+CodeCogsEqn.gif
+CodeCogsEqn.png
+ConsumerComplaints.csv
+Convex Optimization.pdf
+ConvolutionalNeuralNetworksforPhonemeRecognition.pdf
+Copy of Copy of RS  English Assignment Introduction and Methodology Draft .docx
+Copy of Copy of RS  English Assignment Introduction and Methodology Draft .pdf
+Corpus.pptx
+Corpus22.pptx
+Crimes_-_2001_to_present.csv
+Curriculum Vitae (1).pdf
+DLPAPER 0.doc
+DLPAPER.doc
+DL_Experiment_Yorick_v3.ipynb
+DLwithKeras1 (1).ipynb
+DLwithKeras1 (2).ipynb
+DLwithKeras1.ipynb
+DLwithKeras2 (1).ipynb
+DLwithKeras2.ipynb
+DLwithKeras3 (1).ipynb
+DLwithKeras3.ipynb
+DLwithKeras6 (1).ipynb
+DLwithKeras6.ipynb
+DP L3.ipynb
+DPA2.ipynb
+DS Reg Law ethics lecture 1_Broer.pptx
+DS4H_1_2017-2018.pptx
+DSC_2112+.jpg
+Da Silveira Quiosa 494046 learning agreement (1).pdf
+DaSilveiraQuiosa_u283203_assignment1
+DaSilveiraQuiosa_u283203_assignment1.zip
+Daadwerkelijk script Research (1).R
+Daadwerkelijk script Research.R
+Daniel_presentation.docx
+Data_Files
+Data_Files (1).zip
+Data_Files.zip
+Database.pdf
+Datamining_Practical1_u283203
+Datamining_Practical1_u283203 (1)
+Datamining_Practical1_u283203 (1) 2
+Datamining_Practical1_u283203 (1).zip
+Datamining_Practical1_u283203.zip
+Dataset THE 1 Fall 2017 - FINAL.csv
+Dataset THE 2 Fall 2017.sav
+De+eerste+indruk+van+een+student_October+31%2C+2017_05.21 (1).zip
+De+eerste+indruk+van+een+student_October+31%2C+2017_05.21.zip
+Decio Da Silveira CV (1).pdf
+Decio Da Silveira CV.pdf
+Decio da Silveira Quiosa C.V.  (1).pdf
+Decio da Silveira Quiosa C.V. .pdf
+Decio da Silveira Quiosa C.V. Dutch  (1).pdf
+DecioDaSilveiraQuiosa_CV (1).pdf
+DecioDaSilveiraQuiosa_CV.pdf
+Deciodasilveira_u283203_quiz0.ipynb
+Deciodasilveiraquiosa_thesis proposal 1 (1).docx
+Deciodasilveiraquiosa_thesis proposal 1.1 docx.docx
+Deciodasilveiraquiosa_thesis proposal 1.2 docx (1).docx
+Deciodasilveiraquiosa_thesis proposal 1.2 docx.docx
+Deciodasilveiraquiosa_thesis proposal 1.docx
+Declaratieformulier Decio da Silveira Quiosa  week 29  1 van 2 - Blad1 (1).pdf
+Declaratieformulier-Unique.xlsx
+Deep Learning Paper _ Martijn Udo _ 2017836 _ u546522 (final).pdf
+DenseNet-Keras-master.zip
+Detacheringsovereenkomst  DETA  - Automatisch ondertekenen Consultant.pdf
+Detacheringsovereenkomst RE0252642 CB0001627.docx
+Detacheringsovereenkomst RE0252642 CB0001847 (1).docx
+Detacheringsovereenkomst RE0252642 CB0001847.docx
+Digitale waardebon groepsfoto.docx
+EXAMStatisticsforpremasterCIS_Decio Da Silveira Quiosa_u283203.docx
+Eldakar_et_al-2011-Evolution.pdf
+Epsilon Eridani report groupassignment.pdf
+Evans_Analytics2e_ppt_05(2) (1).pptx
+Evans_Analytics2e_ppt_05(2).pptx
+Evans_Analytics_ppt_10 (1).pptx
+Evans_Analytics_ppt_13(1).pptx
+Evans_Analytics_ppt_15(2).pptx
+Exam prep full.pdf
+Eye Movement Analysis.ppt
+EyelinkChangeBlindness.zip
+FUND. Term List.pdf
+First-impression-clothes-1.sav
+Flux (1).zip
+Flux.zip
+FormulierVerhuizen.pdf
+Fotobankpas (1).jpeg
+Fotobankpas.jpeg
+Fundamentals of Information Science SV.docx
+Fundamentals-of-Information-Sciences_combined.pdf
+GTASFX
+GTASFX.zip
+GitHub Desktop 2.app
+GitHub Desktop 222.zip
+Grolsch 1.2.pptx
+Group assignment (1) (1).ipynb
+Group assignment (1).ipynb
+Group assignment.ipynb
+Group%2Bassignment%2BDPA.+allesineenfunctie..ipynb
+Group+assignment+DPA. (1).ipynb
+Group+assignment+DPA. (2).ipynb
+Group+assignment+DPA..ipynb
+Group_assignment_Reuvers_deBeer.R
+Guest Kit
+Guest Kit (1).zip
+Guest Kit.zip
+Gurner-2016_Dressing up posture_The interactive effects of posture and clothing on competency Judgements.pdf
+HAIT-Titlepage.tex
+HP-ENVY-5530-series_v12.34.0.dmg
+HW_Topic1.ipynb
+HW_Topic2 (1).ipynb
+HW_Topic2.ipynb
+HW_Topic3.zip
+Happy Background Music #1 NO COPYRIGHT.mp3
+Het werkt.ipynb
+How to Measure Anything Finding the Value of Intangibles in Business (Douglas W. Hubbard)  {S-B}™
+How to Measure Anything Finding the Value of Intangibles in Business (Douglas W. Hubbard)  {S-B}™.zip
+Huidige+gewenste situatie projecten E&A.pptx
+Hw1_testing_notebook (1).ipynb
+Hw1_testing_notebook.ipynb
+Hw2_testing_notebook (1).ipynb
+Hw2_testing_notebook (2).ipynb
+Hw2_testing_notebook (3).ipynb
+Hw2_testing_notebook (4).ipynb
+Hw2_testing_notebook (5).ipynb
+Hw2_testing_notebook.ipynb
+Hypotheekkosten Concept Huis Amsterdam 320k.xlsx
+IJOPM_pms_96.doc
+IMG_20170310_162145 (1).jpg
+IMG_20170310_162145.jpg
+IMG_20181004_144643.jpg
+IMG_20181004_144655.jpg
+IMG_2096.CR2
+IMG_2109.CR2
+Image 2016-03-19 at 16.35.45.jpeg
+Image 2016-04-23 at 21.57.11.jpeg
+Image 2016-08-24 at 18.22.00.jpeg
+Image070916084823 (1).pdf
+Image070916084823.pdf
+Innovatiemanagement Businesscase voor Talita Koemi%2c JurgenvanDenHoogen&DecioDaSIlveiraQuiosa (Décio Da Silveira Quiosa).docx
+Innovatiemanagement Businesscase voor Talita Koemi%2c JurgenvanDenHoogen&DecioDaSIlveiraQuiosa.docx
+Install Spotify.app
+InstallBackupAndSync.dmg
+InstallSetapp.zip
+IntHyp6.doc
+Intro and Methods Section_Feedback activity (1).docx
+Intro and Methods Section_Feedback activity (2).docx
+Intro and Methods Section_Feedback activity.docx
+Introducing-Communication-Research_nodrm.pdf
+IoT productcase Selim Berntsen.docx
+IoT productcase.docx
+JurafskyISM.pdf
+KHN_cao_01012018_khn model-avr bijlage loontabel met jeugd en uurlonen.pdf.pdf
+KQ4_Rekdal - Academic urban legends.pdf
+KQ8 SocPsy_Pollmann_Investigating_PSPB_2009.pdf
+Klachtenprocedure Klantenservice OV-chipkaart.pdf
+Kopie certificaten en diploma's.pdf
+Kwaliteitsplan Domus Magnus_De Sterreschans.docx
+L1 Intro Fall  17 (1).pptx
+L1 Intro Fall  17 (2).pptx
+L1 Intro Fall  17 (3).pptx
+L1 Intro Fall  17.pptx
+L10 Correlation Fall 17 (1).pptx
+L10 Correlation Fall 17.pptx
+L11 Lineair Regression Part 2 Fall 17 FINAL (1).pptx
+L11 Lineair Regression Part 2 Fall 17 FINAL (2).pptx
+L11 Lineair Regression Part 2 Fall 17 FINAL.pptx
+L13 Q&A and General Recap Fall 17.pptx
+L2 Statistical models Fall 17 updated after lecture (1).pptx
+L2 Statistical models Fall 17 updated after lecture (2).pptx
+L2 Statistical models Fall 17 updated after lecture (3).pptx
+L2 Statistical models Fall 17 updated after lecture.pptx
+L2 Statistical models Fall 17.pptx
+L3 Normality & Graphs Fall 17 (1).pptx
+L3 Normality & Graphs Fall 17 (2).pptx
+L3 Normality & Graphs Fall 17.pptx
+L4 recap & reliability Fall 17 FINAL (1).pptx
+L4 recap & reliability Fall 17 FINAL (2).pptx
+L4 recap & reliability Fall 17 FINAL (3).pptx
+L4 recap & reliability Fall 17 FINAL (4).pptx
+L4 recap & reliability Fall 17 FINAL.pptx
+L4 recap & reliability Fall 17.pptx
+L5 Comparing Means (t-test) Fall 17 FINAL (1).pptx
+L5 Comparing Means (t-test) Fall 17 FINAL (2).pptx
+L5 Comparing Means (t-test) Fall 17 FINAL (3).pptx
+L5 Comparing Means (t-test) Fall 17 FINAL (4).pptx
+L5 Comparing Means (t-test) Fall 17 FINAL.pptx
+L6 One-Way ANOVA Fall 17 (1).pptx
+L6 One-Way ANOVA Fall 17.pptx
+L7 Factorial ANOVA Fall 17 part 1 (1).pptx
+L7 Factorial ANOVA Fall 17 part 1.pptx
+L7 Factorial ANOVA Fall 17 part 2 (1).pptx
+L7 Factorial ANOVA Fall 17 part 2.pptx
+L9 Chi Square Fall 17 (1).pptx
+L9 Chi Square Fall 17.pptx
+Lecture 1.pptx
+Lecture 3 (1).ipynb
+Lecture 3.ipynb
+Lecture 4 (1).ipynb
+Lecture 4.ipynb
+Lecture 6 - KNN & Naive Bayes.ppt
+Lecture10_DB (1).pptx
+Lecture10_DB.pptx
+Lecture11_BI&KM (1).pptx
+Lecture11_BI&KM.pptx
+Lecture12_Management.pptx
+Lecture1_Introduction_IS(2) (1).pptx
+Lecture1_Introduction_IS(2).pptx
+Lecture2_ISCRMERP.pptx
+Lecture3_Strategy(2).pptx
+Lecture4_Structure & Culture.pptx
+Lecture6_Virtual Organizations & eBusiness (1).pptx
+Lecture6_Virtual Organizations & eBusiness.pptx
+Lecture7_SMIS.pptx
+Lecture8_Innovation(1).pptx
+Lees hier de brief uit 2008 met de afspraak van PwC met de Belastingdienst.pdf
+Literature cluster 5 Data Ethics (1).docx
+Literature cluster 5 Data Ethics.docx
+Mac_OSX_VCP_Driver.zip
+Machine Learning block 3.zip
+Mendeley-Desktop-1.19.2-OSX-Universal.dmg
+Michael_Pilarczyk!.zip
+Minor Bedrijfsovername 02022016 Aanvraagformulier Decio da Silveira Quiosa (2).pdf
+Minor Bedrijfsovername 02022016 Literatuurlijst  (1).docx
+Minor Bedrijfsovername 02022016 Literatuurlijst .docx
+My CV (1).pdf
+My CV (2).pdf
+My CV (3).pdf
+My CV (4).pdf
+My CV (5).pdf
+My CV (copy) (1).pdf
+My CV (copy) (2).pdf
+My CV (copy) (3).pdf
+My CV (copy) (4).pdf
+My CV (copy) (5).pdf
+My CV (copy) (6).pdf
+My CV (copy).pdf
+My CV.pdf
+MyTilburgUniversityBrochure_8830.pdf
+N1.csv
+NL82RABO0385732368-Details-afschrijving-Het Financieele Dagblad B.V..pdf
+NL82RABO0385732368-Details-afschrijving-Het Financieele Dagblad BV.pdf
+NL82RABO0385732368-Details-bijschrijving-Het Financieele Dagblad BV.pdf
+NLP_DP (1).ipynb
+NLP_DP (2).ipynb
+NLP_DP (3).ipynb
+NLP_DP.ipynb
+Naamloos document.docx
+Nieuwste functie.ipynb
+Nieuwste inlevermap
+NoSleep-1.3.3.dmg
+OmniGraffle-7.5.dmg
+OnderzoekspublicatiePrintenindederdedimensie (1).pdf
+OnderzoekspublicatiePrintenindederdedimensie.pdf
+Ontvangstbevestiging_Aangifte_inkomstenbelasting_2016_04-03-2017_17.53u.pdf
+Opzet hoofddocument (1).docx
+Opzet hoofddocument (2).docx
+Opzet hoofddocument (3).docx
+Opzet hoofddocument.docx
+Overall Summary Slides BIT (1).pptx
+Overall Summary Slides BIT.pptx
+Overzicht studielening duo.pdf
+PC07 - Iterations.py
+PC08 - Simple Functions.ipynb
+PC08 - Simple Functions.py
+PC09 - Functions.py
+PC10 - Strings.ipynb
+PC11 - Text Files.ipynb
+PC11 - YSText Files (1).ipynb
+PC12 - Lists.ipynb
+PC12 - YSLists (1).ipynb
+PC13 - Dictionaries.ipynb
+PC13 - YSDictionaries (1).ipynb
+PC99 - Answers 1-9.ipynb
+PM - THE 2 fall 2017 (1).docx
+PM - THE 2 fall 2017 (2).docx
+PM - THE 2 fall 2017.docx
+PU12_solutions.R
+PU4 Uitwerkingen + excercises.R
+PU6-exercises
+PU6-exercises (1).zip
+PU6-exercises (2).zip
+PU6-exercises (3).zip
+PU6-exercises.zip
+PU7-exercises
+PU7-exercises (1).zip
+PU7-exercises.zip
+PU9
+PU9 (1).zip
+PU9.zip
+Pakbon4303855760 (1).pdf
+Pakbon4303855760.pdf
+Pakbon4328456760.pdf
+Pakketzegel_169439385.pdf
+Paraphrasing Practice_Celebrity Tweets.docx
+Parsing_DaSilveiraQuiosa_Décio (1).pdf
+Parsing_DaSilveiraQuiosa_Décio.pdf
+Pasfoto Dees (1).png
+Pasfoto Dees (2).png
+Pasfoto Dees jpeg.jpg
+Pasfoto Dees.png
+Paspoort scan Decio.jpg
+Photo Voltaïsche installaties op het juiste segment (1).docx
+Photo Voltaïsche installaties op het juiste segment (2).docx
+Photo Voltaïsche installaties op het juiste segment (3).docx
+Photo Voltaïsche installaties op het juiste segment (4).docx
+Photo Voltaïsche installaties op het juiste segment (5).docx
+Photo Voltaïsche installaties op het juiste segment.docx
+Photo Voltaïsche installaties op het juiste segment.pdf
+Plan van aanpak AOD Kremer BV Deìcio da Silveira Quiosa 494046 (2).docx
+Plan-van-aanpak-AOD-Kremer-BV-Deìcio-da-Silveira-Quiosa-494046-2.docx
+Planning 10-04-2017 V4 planning 01-05-2017.xlsx
+Polisblad D.J. Da Silveira Quiosa (1).pdf
+Polisblad D.J. Da Silveira Quiosa.pdf
+Post-O-maticPOMproductcase.docx
+PostgreSQL-Sample-Database (1).png
+PostgreSQL-Sample-Database.png
+Powell, Beginning Database Design 2006(1).pdf
+Practice Unit 12 - 2017 - Everything together(1).docx
+Practice Unit 12 - solutions (1).docx
+Practice Unit 12 - solutions.docx
+Practice Unit 4 - Graphs and assumptions - 2017 (fall) - answers.docx
+Practice Unit 5 t-test_questions_ANSWERS (1).docx
+Practice Unit 5 t-test_questions_ANSWERS.docx
+Practice unit 1 - 2017 - Intro.docx
+Practice unit 3 - Fall 2017 - Recode - Additional Exercises - Data set (1).csv
+Practice unit 3 - Fall 2017 - Recode - Additional Exercises - Data set (2).csv
+Practice unit 3 - Fall 2017 - Recode - Additional Exercises - Data set.csv
+Practice unit 3 - Fall 2017 - Statistics_survey_PMBA_2017.sav
+PracticeUnit8
+PracticeUnit8 (1).zip
+PracticeUnit8.zip
+Practice_Unit 2 - exercise (1).docx
+Practice_Unit 2 - exercise.docx
+Practice_Unit2_exercises(1).R
+Practice_Unit3_exercises.R
+Practice_Unit4.R
+Practice_Unit4_solutions.R
+Practice_Unit5.R
+Practice_unit 3_Fall_2017_with_answers.docx
+Preprocessing.ipynb
+Presentation1.pptx.jpg
+PrezadosSenhoresSenhoras.docx
+Pu3 and bootstrapping.R
+Python+Programming+Beginner+Tutorials+by+Corey+Schaffer.py
+R script for assignment.docx
+RStudio-1.1.442.dmg
+RStudio-1.1.453.dmg
+RStudio-1.1.456.dmg
+RStudio-1.1.456.exe
+RaynerJML_July_23_CLEAN_FinalText.docx
+Recording #2.mp4
+Reporting_Statistics (1).pdf
+Reporting_Statistics.pdf
+ResSem Minutes Group 36 on 13-09-2017  (1).pdf
+ResSem Minutes Group 36 on 13-09-2017 .pdf
+ResSem2017fall_Décio da SIlveira Quiosa_Individual Report.docx
+ResSem_Ass1 - Research proposal (1).docx
+ResSem_Ass1 - Research proposal.docx
+ResSem_Ass3 - Stimuli (1).docx
+ResSem_Ass3 - Stimuli.docx
+ResSem_Ass4 - Method.docx
+ResSem_Ass5 - Statistical analysis (1).docx
+ResSem_Ass5 - Statistical analysis.docx
+ResSem_Ass6 - Results (1).docx
+ResSem_Ass6 - Results.docx
+ResSem_CourseManual_Fall 2017 (1).docx
+ResSem_CourseManual_Fall 2017(1) (1).docx
+ResSem_CourseManual_Fall 2017(1).docx
+ResSem_CourseManual_Fall 2017(2) (1).docx
+ResSem_CourseManual_Fall 2017(2) (2).docx
+ResSem_CourseManual_Fall 2017(2).docx
+ResSem_CourseManual_Fall 2017.docx
+ResSem_GR36_Stimuli_Methods (1).pdf
+ResSem_GR36_Stimuli_Methods (2).pdf
+ResSem_GR36_Stimuli_Methods (3).pdf
+ResSem_GR36_Stimuli_Methods.pdf
+ResSem_fall2017_GroupAss_general document (1).docx
+ResSem_fall2017_GroupAss_general document (2).docx
+ResSem_fall2017_GroupAss_general document (3).docx
+ResSem_fall2017_GroupAss_general document.docx
+ResSem_fall2017_IndAss_assessmentform for students (1).docx
+ResSem_fall2017_IndAss_assessmentform for students.docx
+ResSem_fall2017_IndAss_general document(1) (1).docx
+ResSem_fall2017_IndAss_general document(1) (2).docx
+ResSem_fall2017_IndAss_general document(1) (3).docx
+ResSem_fall2017_IndAss_general document(1) (4).docx
+ResSem_fall2017_IndAss_general document(1) (5).docx
+ResSem_fall2017_IndAss_general document(1).docx
+ResSem_fall2017_wk1(1) (1).pptx
+ResSem_fall2017_wk1(1) (2).pptx
+ResSem_fall2017_wk1(1) (3).pptx
+ResSem_fall2017_wk1(1) (4).pptx
+ResSem_fall2017_wk1(1).pptx
+ResSem_fall2017_wk2(1).pptx
+ResSem_fall2017_wk2(2) (1).pptx
+ResSem_fall2017_wk2(2).pptx
+ResSem_poster_group36_3.pdf
+Research proposal individual assignment. Décio da Silveira .docx
+Research proposal individual assignment. Décio da Silveira .pdf
+Research proposal individual assignment.pdf
+Research-Seminar-notes (1).docx
+Research-Seminar-notes (2).docx
+Research-Seminar-notes.docx
+ResearchSeminar_Paper_Template (1).docx
+ResearchSeminar_Paper_Template.docx
+Result section + Conclusion version3.docx
+Resume Decio da Silveira.pdf
+Rooster 2015-2016-2017 (1).xlsx
+Rooster 2015-2016-2017 (2).xlsx
+Rooster 2015-2016-2017.xlsx
+S0167811615000373.ris
+S0167811615000373.txt
+S0167945716302032.txt
+S0263237314000607.txt
+S0272494405801847.ris
+S0272494405801847.txt
+S0379073817303110.txt
+S0959475209000255.txt
+SFB_THE1_DaSilveiraQuiosa_U283203.docx
+SFP_THE2_DaSilveiraQuiosa_U283203.docx
+SFP_THE2_vandenHoogen_U919127 (1).docx
+SFP_THE2_vandenHoogen_U919127.docx
+SFP_THE3_DaSilveiraQuiosa_U283203 (1).docx
+SFP_THE3_DaSilveiraQuiosa_U283203.docx
+SGD_NAG.ipynb
+SQLNotes (1).pdf
+SQLNotes.pdf
+SacAmpl.R
+Safome_GrandTheftDUO.zip
+Safome_Grand_Theft_DUO.sb2
+Safome_Grandtheftautoduo.zip
+Salarisstrook_RE0252642_100-LB0942955.pdf
+Salarisstrook_RE0252642_100-LB0989687 (1).pdf
+Salarisstrook_RE0252642_100-LB0989687.pdf
+Salarisstrook_RE0252642_100-LB1028375.pdf
+Salarisstrook_RE0252642_100-LB1128307.pdf
+Salarisstrook_RE0252642_100-LB1298059.pdf
+Salarisstrook_RE0252642_100-LB1634540.pdf
+Samenvatting The architecture of Computer Hardware (1).docx
+Scan.pdf
+Schekermans_Yorick.py
+Screen Shot 2018-07-18 at 2.42.12 PM.png
+Section-3-PostgreSQL-Upload-Code.docx
+SiLabsUSBDriverDisk 2.dmg
+SiLabsUSBDriverDisk.dmg
+Signup_37755.ics
+SolutionsAssignment1.xlsx
+SpotifyInstaller.zip
+Statistics BA - Autumn 2017 - Lecture 5 - Dataset (1).sav
+Statistics BA - Autumn 2017 - Lecture 5 - Dataset (2).sav
+Statistics BA - Autumn 2017 - Lecture 5 - Dataset.sav
+Statistics-for-Premasters-CIS_combined.pdf
+StatisticsExam_EpicFlowChart_V3.pdf
+Statistics_survey_PMBA_2017_PU2_reduced (1).csv
+Statistics_survey_PMBA_2017_PU2_reduced(1).csv
+Statistics_survey_PMBA_2017_PU2_reduced.csv
+Statistics_survey_PU5_FALL_2017 (1).csv
+Statistics_survey_PU5_FALL_2017 (2).csv
+StockSnap_HNQF94HP9D.jpg
+Stranger Things - 8 Bit Cinema.mp3
+Stranger Things - Title Sequence - Netflix [HD].mp3
+Stranger Things Theme [8 Bit Cover Tribute to Stranger Things] - 8 Bit Universe.mp3
+Study Guide 2018 Data Science Regulation and Law _1_ (1).docx
+Study Guide 2018 Data Science Regulation and Law _1_ (2).docx
+Study Guide 2018 Data Science Regulation and Law _1_ (3).docx
+Study Guide 2018 Data Science Regulation and Law _1_ (4).docx
+Study Guide 2018 Data Science Regulation and Law _1_.docx
+Study Guide 2018 Data Science Regulation and Law.docx
+Stuvia-14137-managing-information-systems--boddy-et-al. (1).pdf
+Stuvia-14137-managing-information-systems--boddy-et-al..pdf
+Stuvia-4786-introducing-communication-research-stuvia.pdf
+Summarizing Practice_Green Products (1).docx
+Summarizing Practice_Green Products.docx
+Summary Ch2.pdf
+Syntactic properties of skip-thought vectors.pdf
+TERM LIST BIT.pdf
+TH2_dataset.csv
+THA3(3)(1) (1).docx
+THA3(3)(1) (2).docx
+THA3(3)(1).docx
+THE 1 fall 2017 FINAL Premaster (1).docx
+THE 1 fall 2017 FINAL Premaster (2).docx
+THE 1 fall 2017 FINAL Premaster (3).docx
+THE 1 fall 2017 FINAL Premaster (4).docx
+THE 1 fall 2017 FINAL Premaster (5).docx
+THE 1 fall 2017 FINAL Premaster (6).docx
+THE 1 fall 2017 FINAL Premaster (7) (1).docx
+THE 1 fall 2017 FINAL Premaster (7).docx
+THE 1 fall 2017 FINAL Premaster.docx
+THE 1 fall 2017 FINAL Premaster_2.docx
+THE 3 fall 2017 most common mistakes & answer key (1).docx
+THE 3 fall 2017 most common mistakes & answer key.docx
+THE_3_memory_dataset(1).csv
+Teamopzet muziekplatform 2018 MARVIN.docx
+Ten Brinke Group.docx
+Test2.docx
+The Architecture Of Computer Hardware, Systems Software, & Networking An Information Technology Approach 4Th Ed - I Englander (Wiley, 2009) Bbs (1) copy.pdf
+The Architecture Of Computer Hardware, Systems Software, & Networking An Information Technology Approach 4Th Ed - I Englander (Wiley, 2009) Bbs (1).pdf
+The Value of Big Data in Digital Media Research.pdf
+Thesis Proposal u283203 Decio da Silveira Quiosa (1).pdf
+Thesis Proposal u283203 Decio da Silveira Quiosa.pdf
+Toelichting overuren Silva (1).docx
+Toelichting overuren Silva.docx
+Traineeship Consultancy bij HSO - internationaal ICT bedrijf.pdf
+Trappingconcept.docx
+U283203.practical1.ipynb
+U919127_Blog.docx
+Uitzendkrachtenmap Werken 10-05-2016.pdf
+Unconfirmed 149002.crdownload
+Unconfirmed 528555.crdownload.dmg
+Unconfirmed 666399.crdownload
+Unconfirmed 689402.crdownload
+Untitled2 (1).ipynb
+Untitled2.ipynb
+VOG Aanvraag.pdf
+Villa Beukenhof.docx
+Virtual Reality.mp4
+WA_Fn-UseC_-IT-Help-Desk (1).xlsx
+WA_Fn-UseC_-IT-Help-Desk.xlsx
+WJP Assignment Law. Decio da Silveira Quiosa u283203.pdf
+Watts-CollectiveDynamicsOfSmallWorldNetworks.pdf
+Week 29 1 van 2 declaratieoverzicht_26072018124855 .pdf
+Week 3 Preparation_PreMasters.docx
+Week1-IntroMotivation
+Week1-IntroMotivation.zip
+Week28 reisdeclaratie decio 1 van 2.pdf
+Week28 reisdeclaratie decio 2 van 2 (1).pdf
+Week28 reisdeclaratie decio 2 van 2 (2).pdf
+Week28 reisdeclaratie decio 2 van 2.pdf
+Weekrooster.ICS
+Werkinstructie MijnHandtekening - Automatische upload Consultant.pdf
+WhatsApp Image 2017-08-22 at 11.17.32.jpeg
+WhatsApp Image 2017-08-27 at 16.20.57 (1).jpeg
+WhatsApp Image 2017-08-27 at 16.20.57.jpeg
+WhatsApp Image 2017-08-27 at 16.22.10.jpeg
+WhatsApp Image 2017-10-11 at 20.02.37 (1).jpeg
+WhatsApp Image 2017-10-11 at 20.02.37 (2).jpeg
+WhatsApp Image 2017-10-11 at 20.02.37 (3).jpeg
+WhatsApp Image 2017-10-11 at 20.02.37.jpeg
+WhatsApp Image 2017-10-11 at 20.02.38 (1).jpeg
+WhatsApp Image 2017-10-11 at 20.02.38.jpeg
+WhatsApp Image 2017-11-21 at 22.59.28.jpeg
+WhatsApp Image 2017-12-04 at 21.52.09.jpeg
+WhatsApp Image 2018-01-22 at 19.13.51.jpeg
+WhatsApp Image 2018-03-25 at 21.10.52.jpeg
+WhatsApp Image 2018-06-14 at 16.45.40.jpeg
+WhatsApp Image 2018-07-13 at 11.44.13.jpeg
+WhatsApp.dmg
+Willem's assignment.pdf
+Worksheet_1 (1).Rmd
+Worksheet_1 (2).Rmd
+Worksheet_1.Rmd
+Worksheet_1__1_.html
+Worksheet_2 (1).Rmd
+Worksheet_2.Rmd
+Worksheet_3(1) (1).Rmd
+Worksheet_3(1).Rmd
+Worksheet_4(1).Rmd
+Worksheet_5.Rmd
+Worksheet_6.Rmd
+XQuartz-2.7.11.dmg
+a9rZvK1_700b.jpg
+a_aanvraagformulier_vrije_minor_zelf_samengesteld_okt._2015. Decio da Silveira Quiosa.docx
+aclImdb.zip
+aclImdb_v1.tar.gz
+additional_testing_linear_prediction.ipynb
+all (1).csv
+all.csv
+all_data_info.csv
+alles in een functie groepsopdracht (2).ipynb
+anaconda-navigator-1.8.3-py36_0
+anaconda-navigator-1.8.3-py36_0.tar.bz2
+anchoring.csv
+andy-field-discovering-statistics-using-spss-third-edition-20091.pdf
+anki-2.0.50.dmg
+answers-mock-exam.pdf
+anyconnect-macosx-3.1.14018-web-deploy-k9.dmg
+arduino-1.8.2-macosx (1).zip
+arduino-1.8.2-macosx (2).zip
+arduino-1.8.2-macosx.zip
+artikel-consumenten-vergelijkingssites.pdf
+atom-mac.zip
+augmentedreality.pdf
+base-r.pdf
+basic.ics
+betalingsherinnering.jpg
+boarding-pass.pdf
+business-performance-measurement-andy-neely-(ed-).pdf
+cars.csv
+chapter-05-part1 (1).xlsx
+chapter-05-part1.xlsx
+chapter-13.xlsx
+charts-computer-data-669615.jpg
+cifar-10-python.tar.gz
+cifar-100-python.tar.gz
+comments decio Copy of Copy of RS  English Assignment Introduction and Methodology Draft .docx
+dasilveiraquiosa_decio.py
+data-import.pdf
+data-transformation (1).pdf
+data-transformation (2).pdf
+data-transformation (3).pdf
+data-transformation (4).pdf
+data-transformation (5).pdf
+data-transformation.pdf
+dataanalysisforthelifesciences.pdf
+database-152091_1280.png
+decio da Silveira methodology individual assignment.docx
+decio.pdf
+decio_dasilveiraquiosa_u283203_blog (1).docx
+decio_dasilveiraquiosa_u283203_blog.docx
+decio_dasilveiraquiosa_u283203_blog.pdf
+decio_paintings_256.csv
+deciodasilveiraquiosaU283203Practical3 (1).ipynb
+deciodasilveiraquiosaU283203Practical3 (2).ipynb
+deciodasilveiraquiosaU283203Practical3.ipynb
+deciodasilveiraquiosaU283203practical4.ipynb
+decision_tree.ipynb
+declaratieoverzicht_02082018141753.pdf
+declaratieoverzicht_16072018222441.pdf
+declaratieoverzicht_26072018124849.pdf
+declaratieoverzicht_26072018124855.pdf
+downloader
+downloader_0.4.tar.gz
+downloads
+dvdrental 2.tar
+dvdrental 3.tar
+eba1e_online_data_files.zip
+electrum-3.0.3.dmg
+emerald_mrr33_994.ris
+exam-2016-04-04.pdf
+facebook-deciodasilveira.zip
+fall2018_DSS_supervisor_assignments.csv
+feat.npy
+femaleMiceWeights.csv
+filename-1 (1).jpg
+filename-1 (2).jpg
+filename-1 (3).jpg
+filename-1 (4).jpg
+filename-1.jpg
+filename-1.pdf
+flyer msi_Marlous.pptx
+freac-20170317-macosx.dmg
+functie_time.py
+functions.py
+functions_example(1).py
+funktional-0.6
+funktional-0.6.zip
+googlechrome (1).dmg
+googlechrome.dmg
+grade-point-average-calculation.pdf
+group_info (1).csv
+group_info.csv
+gx-lshc-2017-health-care-outlook-infographic.pdf
+headjs-master.zip
+hotel transylvania 2 bla bla bla.mp3
+i15_1912.pdf
+iMovie.app
+icalexport.ics
+ijjcai2018
+ijjcai2018 (1).zip
+ijjcai2018 (2)
+ijjcai2018 (2).zip
+ijjcai2018 (3).zip
+ijjcai2018 (4)
+ijjcai2018 (4).zip
+ijjcai2018.zip
+information-07-00058.pdf
+installing-packages-university-machines.R
+kernel.ipynb
+klachtenregeling certificaat-108704.pdf
+kpi.mp3
+lab4 (1).R
+lab4 (2).R
+lab4 (3).R
+lab4.R
+lab6 (1).R
+lab6.R
+levels.mp3
+lifting.rds
+lightworks_v12.6.0.1.dmg
+locus_combined.csv
+luisa.csv
+masterthesis proposal u283203 decio da silveira quiosa ppt1.pptx
+matrix.mp3
+mega_Dusko V3 compleet.xlsx
+midterm datamining.pdf
+ml-100k.zip
+mob-jaarraportage-2016.pdf
+mock-exam.pdf
+model 2 CNV ADADELTA DEFAULT+DROPOUT (1).ipynb
+model 2 CNV ADADELTA DEFAULT+DROPOUT (2).ipynb
+model 2 CNV ADADELTA DEFAULT+DROPOUT.ipynb
+model 3 CNV SGD DEFAULT+DROPOUT & mom2.ipynb
+model+1++CNV%2BSGD%2BDropout.ipynb
+mp3.tgz
+nature14539 (1).pdf
+nature14539.pdf
+new.csv
+nieuwe groepsopdracht (1).ipynb
+numbers.csv
+numbers.mp3
+online-boodschappen-doen-4640-oycxjl.pdf
+oreilly-epub-90e03502-875c-45f5-8b9e-2a720cca16db.epub
+outliers_initial_clustering_data_complete
+overuren barros.xlsx
+participants (1).xlsx
+participants.xlsx
+path.npy
+payment.pdf
+paymentdetails Decio da Silveira-2.pdf
+personal+social+media+strategy.pdf
+perspectives.mp3
+pgadmin4-3.1.dmg
+plot_partial_dependence (1).ipynb
+plot_partial_dependence.ipynb
+populations.txt
+porto-1982471_1920.jpg
+porto.docx (1) (1).pdf
+porto.docx (1).pdf
+porto.docx.pdf
+pos_logisticregression_two.estimator
+postgresql-10.4-1-osx (1).dmg
+postgresql-10.4-1-osx (2).dmg
+postgresql-10.4-1-osx.dmg
+postgresql-9.5.0
+postgresql-9.5.0.tar.bz2
+postgresql-9.5.13-1-osx.dmg
+ppt ido (1).pptx
+ppt ido.pptx
+profileringsfonds-2016-2017.pdf
+proposal outline u283203 (1).docx
+proposal outline u283203 (2).docx
+proposal outline u283203.docx
+ptj3910704.pdf
+pu2.csv
+pycharm-community-2017.3.3 (1).dmg
+pycharm-community-2017.3.3.dmg
+pycharm-community-2018.2.4.dmg
+python-3.6.4-macosx10.6.pkg
+pythonfilesrmspropmodel (1).csv
+pythonfilesrmspropmodel.csv
+quiosa 1.jpeg
+quiosa 2.jpeg
+quiosa 3.jpeg
+quiosa 4.jpeg
+quiosa 5.jpeg
+quizMidterm.py
+ratings (1).csv
+reminder_517102794775724980.ics
+reporting statistics cheatsheet.pdf
+reservationical.nl.ics
+results.csv
+retouretiket (1).pdf
+retouretiket (2).pdf
+retouretiket.pdf
+returnform-122709.pdf
+returnlabel-122709.pdf
+reveal.js-master
+reveal.js-plugins-master
+reveal.js-plugins-master.zip
+rightprice presentation 2.0.pptx
+rightprice presentation.pptx
+rstudio-ide.pdf
+rsz_1rsz_1rsz_charts-computer-data-669615.jpg
+rsz_1rsz_charts-computer-data-669615.jpg
+rsz_charts-computer-data-669615.jpg
+runs (1).csv
+sage_peca21_117.ris
+samenvatting methods.pdf
+sampleSubmission (1).csv
+sample_data (1).csv
+saved_models
+sbsc.mp3
+script (1).docx
+script.docx
+selections (1).csv
+set1.csv
+shiny-quickstart-1.zip
+slp2 (1).pdf
+slp2.pdf
+stats_methods-final_exam-20171010.pdf
+strings (1).pdf
+strings.pdf
+summary 25.docx
+superfan.pdf
+tandf_rina2028_715 (1).bib
+tandf_rina2028_715.bib
+test.csv
+test.tsv.zip
+th2.csv
+thesevenkeyattributespublishedversion.pdf
+thesis proposal 0.8.docx
+tickets_16634200 (1).pdf
+tickets_16634200 (2).pdf
+tickets_16634200 (3).pdf
+tickets_16634200 (4).pdf
+tickets_16634200.pdf
+tnw2018_ticket_6OKQGNwv.pdf
+tnw2018_ticket_yd48ajdv.pdf
+total_control.csv
+train 2.tsv
+train.csv
+train.tsv
+train.tsv.zip
+u283203 masterthesis proposal Decio da Silveira Quiosa (1).mp4
+u283203 masterthesis proposal Decio da Silveira Quiosa.mp4
+u283203.videoinstructions.ipynb
+u283203_ PLA_assignment_Decio da silveira quiosa (1).pdf
+u283203_ PLA_assignment_Decio da silveira quiosa.pdf
+u283203_nlpassignment_decio_dasilveiraquiosa (1).pdf
+u283203_nlpassignment_decio_dasilveiraquiosa.pdf
+vandenHoogen_U919127_Assignment1
+vandenHoogen_U919127_Assignment1.zip
+vergelijkbare-basisverzekeringen-2017.pdf
+vlc-2.2.6-win32.exe
+vlc-2.2.6.dmg
+vlc-3.0.4.dmg
+voxels_numpy_logo.py
+w1.zip
+w2
+w2 (1).zip
+w2 (2).zip
+w2 (3).zip
+w2.zip
+w5(1) (1).zip
+w5(1) (2).zip
+w5(1) (3).zip
+w5(1) (4)
+w5(1) (4).zip
+w5(1).zip
+w7(1) (1)
+w7(1) (1).zip
+w7(1).zip
+wav
+wav.tgz
+website
+week 29 2 van 2 declaratieoverzicht .pdf
+wetransfer-35f1bc
+wetransfer-35f1bc.zip
+wetransfer-5ff46c
+wetransfer-5ff46c.zip
+wetransfer-9e3269 (1)
+wetransfer-9e3269 (1).zip
+wetransfer-9e3269.zip
+wetransfer-e48477
+wetransfer-e48477 2
+wetransfer-e48477.zip
+whypfm (1).mp3
+whypfm.mp3
+wine-reviews
+wine-reviews.zip
+winequality-red (1).csv
+winequality-red (2).csv
+winequality-red (3).csv
+winequality-red (4).csv
+winequality-red.csv
+youtube-new
+youtube-new.zip
+zekerheidpe.pdf
+zzp-eenmanszaak-btw-factuur.docx
+~$B_THE1_DaSilveiraQuiosa_U283203 (1).docx
+~$B_THE1_DaSilveiraQuiosa_U283203.docx
+~$Corpus.pptx
+~$Evans_Analytics2e_ppt_05(2) (1).pptx
+~$Lecture10_DB (1).pptx
+~$Lecture1_Introduction_IS(2) (1).pptx
+~$Lecture6_Virtual Organizations & eBusiness (1).pptx
+~$Overall Summary Slides BIT.pptx
+~$P_THE3_DaSilveiraQuiosa_U283203.docx
+~$Planning 10-04-2017 V4 planning 01-05-2017.xlsx
+~$ciodasilveiraquiosa_thesis proposal 1 (1).docx
+~$ciodasilveiraquiosa_thesis proposal 1.2 docx.docx
+~$menvatting The architecture of Computer Hardware (1).docx
+~$menvatting The architecture of Computer Hardware (2).docx
+~$oto Voltaïsche installaties op het juiste segment (3).docx
+~$oto Voltaïsche installaties op het juiste segment.docx
+~$tes_ Videolectures.docx
+]0;~/DownloadsDecio-2:Downloads user$ [KDecio-2:Downloads user$ cd ..
+]0;~Decio-2:~ user$ ls
+1.What-is-Probability.ipynb
+1411 alles in een functie groepsopdracht.ipynb
+2.What-is-Statistics?.ipynb
+2b_Vectorization-noAnswers (3).ipynb
+3.Long-term-frequencies.ipynb
+3c_OLS_Regression_noSolutions (1).ipynb
+4.The-Three-card-Puzzle.ipynb
+4_Sparse_Arrays_noAnswers (1).ipynb
+5_Distance-noAnswers (1).ipynb
+ADADELTA.ipynb
+AnacondaProjects
+Applications
+Assignment01_u283203_DaSilveiraQuiosa.R
+Augmented Reality
+Augmented Reality 
+BP_Verkooppunten_Final#MOST_important-checkpoint.ipynb
+BP_Verkooppunten_Final#clustering-checkpoint.ipynb
+BPress_VerkoopID_clusters_code-checkpoint.ipynb
+Change_blindness.ipynb
+Change_blindness_dataset-Copy1.ipynb
+Change_blindness_dataset.ipynb
+DDSQ.github.io
+DLPAPER 0.doc
+DLPAPER 7.doc
+DLwithKeras2.ipynb
+DLwithKeras3.ipynb
+DLwithKeras6.ipynb
+DaSilveiraQuiosa_Decio_Deeplearningexperiment.ipynb
+Dasilveiraquiosa_decio
+Data_vis.ipynb
+Desktop
+Documents
+Downloads
+Equations and math symbols for report.ipynb
+Exploration thesis.ipynb
+Eyelink.ipynb
+Eyelink_dataset.ipynb
+FEB2017
+Google Drive
+Group assignment (1).ipynb
+Group assignment DPA..ipynb
+Group+assignment+DPA. allesineenfunctie..ipynb
+HOME ASSIGNMENT 1.R
+Heatmap.ipynb
+Heatmapping.ipynb
+Het werkt.ipynb
+Hw1_testing_notebook (1).ipynb
+Hw2_testing_notebook (1).ipynb
+Kaggling_pandas.ipynb
+Library
+Lightworks
+ML challenge.ipynb
+MSI
+Movies
+Music
+NLP.ipynb
+NLP_DP.ipynb
+Nieuwste functie.ipynb
+OOP - notebook.ipynb
+PC07 iterations.ipynb
+Pictures
+Practical 1 ML.ipynb
+Practice unit 6 Anova without exercises.R
+Preprocessing-Copy1.ipynb
+Preprocessing.ipynb
+Presentatie Ordina
+Prob_stat.ipynb
+Public
+PycharmProjects
+Python for data-analysis testbook.ipynb
+Python tricks.ipynb
+Rplot.png
+SGD_NAG.ipynb
+Schekermans_Yorick.py
+TH3.R
+Thesis RQ1 deel 2.ipynb
+Thesis experiment.ipynb
+Thesis_RQ2.ipynb
+Thesis_RQ3.ipynb
+Untitled.ipynb
+Untitled1.ipynb
+Untitled2.ipynb
+Untitled3.ipynb
+Untitled4.ipynb
+Untitled5.ipynb
+Untitled6.ipynb
+Untitled9.ipynb
+alles in een functie groepsopdracht (2).ipynb
+anaconda
+anaconda3
+blabla.Rhtml
+blabla.html
+chapter 4.ipynb
+coco_val.txt
+cookiecutter-pypackage-minimal
+counts per feature.ipynb
+counts per feature.ipynb copy
+dasilveiraquiosa_decio (1).py
+dasilveiraquiosa_decio.py
+data.ipynb
+datacleaning.ipynb
+decio_dasilveiraquiosa.ipynb
+deciodasilveiraquiosaU283203Practical3.ipynb
+decisiontree google tutorial.ipynb
+demo
+descriptions.txt
+feedback des.docx
+functie_time.ipynb
+gfortran-4.8.2-darwin13.tar.bz2
+heatmaps.ipynb
+iCloud Drive (Archive)
+index.html
+iris.txt
+jup
+learn
+lsr practice.R
+models.ipynb
+modules.ipynb
+mypolygon.py
+nltk_data
+pix2pix
+populations.txt
+practice unit 6 anova.R
+presentations
+prob_stat_assignment_1.ipynb
+pu9.R
+pythonfiles
+question_4_test_1.npy
+quizMidterm.py
+reseach seminar.R
+reveal.js
+revealpresentatie
+schaffer.ipynb
+seaborn-data
+thesis
+tmp
+untitled.txt
+]0;~Decio-2:~ user$ cd ..
+]0;/UsersDecio-2:Users user$ ls
+Guest	Shared	decio	des
+]0;/UsersDecio-2:Users user$ getwd(
+bash: syntax error near unexpected token `newline'
+]0;/UsersDecio-2:Users user$ [KDecio-2:Users user$ ls
+Guest	Shared	decio	des
+]0;/UsersDecio-2:Users user$ cd decio/c[Kthesis/csi_thesis
+]0;~/thesis/csi_thesisDecio-2:csi_thesis user$ ls
+All Eyes on the Evidence 3.docx			models
+Correlation between features CB.png		modules.py
+LICENSE						notebooks
+Makefile					one.csv
+README.md					packages
+__pycache__					pix.pkl
+cb_rep.pkl					plot five.png
+ced_blind.pkl					plot_fixdur.png
+change_blind.pkl				references
+change_minmax.png				reports
+change_standard.png				requirements.txt
+csi_thesis.Rproj				save.p
+data						score_tree_cb.pkl
+docs						setup.py
+eye_22						src
+eye_new.pkl					test_environment.py
+eyelink correlation.png				tox.ini
+feature importance EYE.png			visualizations.R
+feature_importance global.png			visualizations_preprocessing_changeblindness.R
+five.csv
+]0;~/thesis/csi_thesisDecio-2:csi_thesis user$ 

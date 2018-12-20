@@ -1,0 +1,219 @@
+## Décio da Silveira Quiosa
+## u283203
+
+## Load Packages & Data  ------------------------------------------------------------------------
+library(ggplot2)
+library(dplyr)
+rating <- read.csv("input/ratings.csv", stringsAsFactors = FALSE)
+
+View(rating)
+
+#Question 1 -----------------------------------------------------------------------------------------
+#All characters are lowered and the spaces are removes to have less variants.
+rating$Q32 <- tolower(rating$Q32)
+rating$Q32 <- gsub(" ", "", rating$Q32)
+f_duration <- rating
+
+# the seconds column is divided by 60 in order to produce the time in minutes.
+f_duration$Duration..in.seconds. <- (rating$Duration..in.seconds.) / 60
+f_duration <- rename(f_duration, duration.in.minutes = Duration..in.seconds.)
+
+#An object containing only females is produced by subsetting all variants of female.
+f_duration <- f_duration[f_duration$Q32 %in% c("female", "femake", "f", 
+                                               "females"), ]
+
+?rep
+answer1 <- f_duration
+
+#Question 2------------------------------------------------------------------------------------------
+rating$Q35 <- tolower(rating$Q35)
+rating$Q35 <- gsub(" ", "", rating$Q35)
+#An object containing only studends and unemployed  participants is produced
+# by subsetting all variants of unemployed and students.
+stud_unemp <- rating[rating$Q35 %in% c("umemployed", "unemployed", "student"), ]
+answer2 <- stud_unemp
+
+#Question 3------------------------------------------------------------------------------------------
+rating$Q32 <- tolower(rating$Q32)
+rating$Q32 <- gsub(" ", "", rating$Q32)
+
+f_rating <- rating[rating$Q32 %in% c("female", "femake", "f", "females"), ]
+m_rating <- rating[rating$Q32 %in% c("m", "male"), ]
+
+# Here a new object is created by taking the means of all ratings. 
+avg_fm <- data.frame(gender = c("female", "male")) 
+avg_fm$attr_black1 = (c(mean(f_rating$Black1_2, na.rm = TRUE), 
+                        mean(m_rating$Black1_2, na.rm = TRUE)))
+
+avg_fm$attr_white1 = (c(mean(f_rating$White1_2, na.rm = TRUE), 
+                        mean(m_rating$White1_2, na.rm = TRUE)))
+
+answer3 <- avg_fm
+
+# Question 4 -----------------------------------------------------------------------------------------
+df_start_end <- rating 
+# The locationlatitude columns is removed by assigning NULL
+df_start_end$LocationLatitude <- NULL
+
+# 2 new columns  are added by subsetting a substraction
+#from the start and enddate columns.
+df_start_end$StartTime <- substr(df_start_end$StartDate, 11, 16) 
+df_start_end$EndTime <- substr(df_start_end$EndDate, 11, 16)
+
+answer4 <- df_start_end
+
+#Question 5 ----------------------------------------------------------------------------------------- 
+ggplot()+
+  geom_histogram(data = rating, aes(Q33), bins = 20)+
+  scale_x_continuous(name = "Age")+
+  scale_y_continuous(name = "Number of Observations")+
+  theme(axis.title = element_text(size = 8))
+
+
+#Question 6 -----------------------------------------------------------------------------------------
+rating$Q32 <- tolower(rating$Q32)
+rating$Q32 <- gsub(" ", "", rating$Q32)
+
+#to separate objects are created including only female or male 
+female_df <- rating[rating$Q32 %in% c("female", "femake", "f", "females"), ]
+male_df<- rating[rating$Q32 %in% c("m", "male"), ]
+
+#the gender column(Q32) is changed to either female or male
+female_df$Q32 <- "female"
+male_df$Q32 <- "male"
+
+#both objects are concatenated  vertically into a new dataframe.
+r_copy6 <- bind_rows(female_df, male_df)
+
+#the newly formed  dataframe is used for the boxplot.
+ggplot(r_copy6, aes(Q32, Black1_1)) +
+  geom_boxplot()+
+  scale_x_discrete("Gender participant")+
+  theme(axis.title = element_text(size = 8))
+
+#Question 7 -----------------------------------------------------------------------------------------
+ggplot(rating, aes(Black1_1, White1_1))+
+  geom_point(position = "jitter")+
+  scale_x_continuous(name = "Competence white model 1")+
+  scale_y_continuous("Competence black model 1")+
+  theme(axis.title = element_text(size = 8))
+
+#Question 8 -----------------------------------------------------------------------------------------
+#all column names  fom the rating dataset are extracted with the colnames function.
+all_names <- colnames(rating)
+
+#the variable all_names object is then filtered for every string that ends with _1.
+# And then filtered for black or white model.
+labs_competency <- all_names[grepl("_1", all_names)] 
+labs_b_models <- labs_competency[grepl("Black", labs_competency)]
+labs_w_models <- labs_competency[grepl("White", labs_competency)]
+
+#The filtered labels are used as an argument for the colmeans functi
+# on to calculate the means of the relevant models.
+rating_b_models <- colMeans(rating[labs_b_models], na.rm = TRUE)
+rating_w_models <- colMeans(rating[labs_w_models], na.rm = TRUE)
+
+# An object is created with the columns model, rating, color as an factor for the plot.
+dataframe_b_and_w <- data.frame(model = c(labs_b_models, labs_w_models)) 
+dataframe_b_and_w$rating <- c(rating_b_models, rating_w_models)
+dataframe_b_and_w$color <- "Black"
+dataframe_b_and_w$color[13:24] <- "White"
+dataframe_b_and_w$color <- as.factor(dataframe_b_and_w$color)
+
+ggplot(dataframe_b_and_w, aes(reorder(model, rating), rating))+
+  geom_bar(aes(fill = color), stat= "identity")+
+  scale_x_discrete(name = "Model")+
+  scale_y_continuous(name = "Competency rating")+
+  theme(axis.text.x = element_text(angle = 60, hjust = 1), 
+        axis.title = element_text(size = 7))+
+  scale_fill_manual(guide_legend(title = "Race"), 
+                    values = c("Black" = "black", "White" = "white"))
+
+# Question 9-----------------------------------------------------------------------------------------.
+# Here the all columns names are extracted from the rating dataset.
+all_names <- colnames(rating)
+
+# Here we extract all relevant labels (that end with _2)
+labs_attractive <- all_names[grepl("_2", all_names)] 
+labs_bmodels <- labs_attractive[grepl("Black", labs_attractive)]
+labs_wmodels <- labs_attractive[grepl("White", labs_attractive)]
+
+#The filtered labels are used as an argument for the colmeans function.
+rating_bmodels <-  colMeans(rating[labs_bmodels], na.rm = TRUE)
+rating_wmodels <- colMeans(rating[labs_wmodels], na.rm = TRUE)
+
+#Here we  create a new object with model, race and attire as columns.
+df_attr <- data.frame(model = c(labs_bmodels, labs_wmodels))
+df_attr$rating <- c(rating_bmodels, rating_wmodels)
+df_attr$race <- "black"
+df_attr$race[13:24] <- "White"
+df_attr$attire = "formal"
+df_attr$attire[c(2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 24)] = "informal"
+
+answer9 <- df_attr
+
+# Question 10 ---------------------------------------------------------------------------------------
+rating$Q32 <- tolower(rating$Q32)
+rating$Q32 <- gsub(" ", "", rating$Q32)
+
+#Here we create two separate dataframes  and recode  gender to "F" and "M".
+df_female <-as.data.frame(rating[grepl("f", rating$Q32), ])
+df_male <- rating[rating$Q32 == "male" | rating$Q32 == "m", ]
+df_female$Q32 <- "F"
+df_male$Q32 <- "M"
+
+table(rating$Q32)
+
+# Here we concatenate the separate dataframes horizontally
+# to form a copy of the new dataframe.
+r_copy10 <- bind_rows(df_female, df_male)
+names(r_copy10) <- sub("Q32", "gender", names(r_copy10))
+
+ggplot(r_copy10, aes(Black10_1, Black11_1, color = gender))+
+  geom_point(stat = "identity", position = "jitter")+
+  scale_x_continuous("Comepetence black model 10")+
+  scale_y_continuous("Competence black model 11")+
+  theme(axis.title = element_text(size = 8))+
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(), 
+        panel.background = element_blank(), 
+        axis.line = element_line(colour = "black"))
+
+View(rating)
+  
+
+# Question 11---------------------------------------------------------------------------------------
+#Here we recode the ratings for the black models to low, medium and high buckets 
+# for plotting purposes.
+rating$Black1_2[rating$Black1_2 == 1 | rating$Black1_2 == 2] <- "low"
+rating$Black1_2[rating$Black1_2 == 3 | rating$Black1_2 == 4] <- "medium"
+rating$Black1_2[rating$Black1_2 == 5 | rating$Black1_2 == 6] <- "high"
+
+ggplot(rating, aes(Black1_2))+
+  geom_bar(stat = "count")+
+  theme(axis.title = element_text(size = 8))+
+  scale_x_discrete("Black1AttrCat", limits = c("low", "medium", "high"))
+ 
+# Question 12--------------------------------------------------------------------------------------
+rating$Q35 <- tolower(rating$Q35)
+rating$Q35 <- gsub(" ", "", rating$Q35)
+
+#Here we create a new dataframe containing students and non students recoded as
+# student and non_student.
+stu <- rating[rating$Q35 == "student", ] 
+non_stu <- rating[rating$Q35 != "student", ]
+non_stu$Q35 <- "non_student"
+stu_nonstu <- bind_rows(stu, non_stu)
+stu_nonstu <- stu_nonstu[!is.na(stu_nonstu$Black5_3) |
+                           !is.na(stu_nonstu$Black5_4), ]
+
+#Student and non_student are  changed to factors.
+stu_nonstu$Q35 <- factor(stu_nonstu$Q35, levels = c("student", "non_student")) 
+
+ggplot(stu_nonstu, aes(Black5_3, Black5_4, color = Q35))+
+  geom_point(position = "jitter")+
+  theme(panel.grid = element_line())+
+  theme(axis.title = element_text(size = 8))+
+  scale_y_continuous(minor_breaks = seq(1, 11, 0.5))+
+  scale_color_manual(guide_legend(title = "group"), 
+                     values = c("student" = "blue", "non_student" = "red"))
+

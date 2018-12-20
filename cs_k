@@ -1,0 +1,5 @@
+,fase,scaling,scores
+0,train,Standard,0.5
+1,train,MinMax,0.4
+2,test,MinMax,0.33
+3,test,Standard,0.1428

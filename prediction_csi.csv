@@ -1,0 +1,5 @@
+,score,model,fase
+0,0.14285714285714285,Extra Trees,test
+1,0.14285714285714285,Random forest,test
+2,0.6666666666666666,Extra Trees,train
+3,0.75,Random forest,train

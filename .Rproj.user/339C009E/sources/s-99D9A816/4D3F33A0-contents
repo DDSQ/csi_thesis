@@ -1,0 +1,188 @@
+## Décio da Silveira Quiosa
+## u283203
+
+## Load Packages & Data  ------------------------------------------------------------------------
+library( tidyr )
+library( dplyr )
+library( caret )
+library( lattice )
+library( ggplot2 ) 
+
+## Load Packages & Data  ------------------------------------------------------------------------
+locus_combined <- read.csv("input/locus_combined.csv", stringsAsFactors =  FALSE)
+numbers <- read.csv("input/numbers.csv", stringsAsFactors =  FALSE)
+anchoring <- read.csv("input/anchoring.csv", stringsAsFactors = FALSE)
+total_control <- read.csv("input/total_control.csv", stringsAsFactors = FALSE)
+
+#Question 1 -----------------------------------------------------------------------------------------
+loc_copy <- locus_combined
+loc_copy$Resp <- ifelse( loc_copy$Resp == "Top", "a", "b" ) 
+
+#Here we subset the locus combined dataframe and reshape it.
+loc_copy <- loc_copy %>%
+  select( one_of( c( "Resp", "Trial", "subject_nr" ) ) ) %>%
+  spread( Trial, Resp )
+
+# Create indices in order to find the correct columns(questions) and sum the scores.
+indx_a <- c( 3, 7, 8, 10, 17, 18, 19, 21, 22, 24, 26, 30 )
+indx_b <- c( 4, 5, 6, 11, 12, 13, 14, 16, 23, 27, 29 )
+loc_copy$score <- rowSums( loc_copy[, indx_b ] == "b" ) +
+  rowSums( loc_copy[, indx_a ] == 'a' )
+
+#Store the relevant columns into a new variable.
+Loc_score <- select( loc_copy, one_of( c( "subject_nr", "score" ) ) )
+Loc_score
+
+#Question 2------------------------------------------------------------------------------------------
+ctrl <- total_control
+
+# Inspiration for the missing() 
+#https://www.rdocumentation.org/packages/base/versions/3.5.0/topics/missing
+add_category <- function( ctrl, b ){
+  if ( missing( b )){
+    b <- c( 10, 15 )
+  }
+  category <- ifelse( ctrl[ 2 ] <= b[ 1 ], ctrl$category <- "Low", 
+                           ifelse( ctrl[ 2 ] >= b[ 1 ] & ctrl[ 2 ] <= b[ 2 ], 
+                                  ctrl$category <- "Medium", 
+                                  ctrl$category <- "High" ) )
+  ctrl$category <- category
+  return( ctrl )
+}
+
+
+#Question 3------------------------------------------------------------------------------------------
+#make a subset of the data with all the relevant variables.
+# and add the control scores as a new col.
+anch_copy <- anchoring %>%
+  select( one_of(c( "subject_nr", "Confidence", "Gender" ) ) ) %>%
+  unique( ) %>%
+  bind_cols( ctrl )
+
+anch_copy$Gender <- ifelse(anch_copy$Gender == "F", "Female", "Male")
+
+#colors are borrowed from here
+# http://www.cookbook-r.com/Graphs/Colors_(ggplot2)/
+  
+ 
+ggplot( anch_copy, aes( x = Confidence, y = score, colour = Gender  ) ) + 
+  geom_point(size = 2, position = "jitter" ) +
+  theme_bw( ) +
+  theme( title = element_text( size = 14 ) ) +
+  scale_colour_manual( values = c( "Female" = "#FF3300", "Male" = "#000999" ) ) +
+  labs( x = "Confidence in ratings", y = "Locus of control score", 
+        colour = "Gender participant" ) 
+
+
+# Question 4 -----------------------------------------------------------------------------------------
+anchor <- anchoring
+
+#create a new more clearer df
+anchor <- anchor %>%
+  select( one_of( c( "Anchor", "Cond", "Guess", "More_button" ) ) ) %>%
+  filter( Cond != "Neutral" )
+
+#Recode consistency into yes and no.
+anchor$consist <- ifelse( anchor$More_button == "yes" & anchor$Guess > anchor$Anchor, 
+                         anchor$consist <- "yes", 
+                          ifelse( anchor$More_button == "no" & 
+                                   anchor$Guess < anchor$Anchor,
+                                 anchor$consist <- "yes", 
+                                 anchor$consist <- "no" ) )
+ 
+#plot anchor condition versus number of observations
+ggplot( anchor, aes( x = Cond, fill = consist ) ) +
+  geom_bar( stat = "count", position = "dodge" ) +
+  theme( title = element_text( size = 11 ) ) +
+  labs( x = " Anchoring condition", y = "Number of observations", 
+       fill = "Responses consistent?")
+#Question 5 ----------------------------------------------------------------------------------------- 
+set1 <- read.csv( "input/set1.csv", stringsAsFactors = FALSE )
+set2 <- read.csv( "input/set2.csv", stringsAsFactors = FALSE )
+
+#create a lookup table, the Idea is borrowed from:
+#https://stackoverflow.com/questions/35636315/replace-values-in-a-dataframe-based-on-lookup-table
+trial_lookup <- set1 %>%
+  select(one_of(c("TopStatement", "Trial"))) %>%
+  unique()
+
+#use the table to match Topstatement to Trials.
+trial_temp <- trial_lookup[ match( set2$TopStatement, 
+                                 trial_lookup$TopStatement), "Trial"]
+set2$Trial <- trial_temp
+
+#bind into a new object
+combined_control <- bind_rows(set1, set2)
+#Question 6 -----------------------------------------------------------------------------------------
+anchor_df <- anchoring
+
+#create a separate object to mutate wedding
+wedding <- anchor_df %>%
+  filter(Label == "wedding") %>%
+  select(one_of(c("ActualVal", "Cond", "Label", "Guess", "subject_nr")))
+#compute new values for the  outliers
+wedding$Guess <- ifelse(wedding$Guess > 1000, 
+                        wedding$Guess/1000, wedding$Guess * 1 )
+
+#create new df and bind with wedding.
+anchor_df<- anchor_df %>%
+  filter(Label != "crime")%>%
+  filter(Label != "wedding") %>%
+  select(one_of(c("ActualVal", "Cond", "Label", "Guess", "subject_nr")))%>%
+  bind_rows( wedding )
+
+#Question 8 -----------------------------------------------------------------------------------------
+#create a new df for the knn
+anchor_knn <- anchoring %>% 
+  filter(Cond != "Neutral") %>%
+  select(one_of(c("Label", "Guess","Cond"))) %>%
+  group_by(Label)
+
+# fit the knn model and
+cond_knn = train( Cond ~., method = "knn", data = anchor_knn,
+                   trControl = trainControl(method = 'cv', number = 10))
+  
+
+# Question 9-----------------------------------------------------------------------------------------.
+#create copies 
+loc <- locus_combined
+tot_ctrl <- total_control
+
+#select the relevant variables for prediction
+loc <- loc %>%
+  left_join(tot_ctrl) %>%
+  select( one_of(c( "Resp", "Trial", "subject_nr", "score" ) ) ) %>%
+  group_by( Trial )
+
+# Fit the logistic regression model.
+logr_loc = train( Resp ~ score,
+                method = "glm", data = loc, family = binomial( link = "logit" ),
+                trControl = trainControl( method = "cv", number = 10, 
+                                          returnResamp = "all") )
+# Question 10 ---------------------------------------------------------------------------------------
+ctrl_tot <- total_control
+
+#Create a new google dataframe
+google <- anchoring %>%
+  filter( Label == "google" ) %>%
+  left_join( ctrl_tot ) 
+
+## generating a train -and testsest (and using the inverse to make a test set.)
+trn_index = createDataPartition( y = google$Gender, p = 0.80, list = FALSE)
+trn_google = google[trn_index, ]
+tst_google = google[-trn_index, ]
+
+#releveling in order to make Neutral the referencepoint and fit the model
+trn_google_releveled<- trn_google %>%
+    mutate(Cond = relevel(factor(Cond), ref = "Neutral"))
+
+logr_google = train( Gender ~ Confidence + score + Cond,
+                 method = "glm", data = trn_google, 
+                 family = binomial( link = "logit" ),
+                 trControl = trainControl( method = "cv", number = 10 ) )
+
+#predicted outcomes and creation of the confusion matrix.
+predicted_outcomes <- predict( logr_google, tst_google )
+log_confusionmatrix <- confusionMatrix( predicted_outcomes, tst_google$Gender )
+matrix <- log_confusionmatrix$table
+matrix

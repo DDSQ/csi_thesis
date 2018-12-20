@@ -1,0 +1,23 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1544219243509.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "A1EFD163",
+    "lastKnownWriteTime" : 1544720630,
+    "last_content_update" : 1545334399355,
+    "path" : "~/thesis/csi_thesis/visualizations feature importance.R",
+    "project_path" : "visualizations feature importance.R",
+    "properties" : {
+        "cursorPosition" : "73,0",
+        "scrollLine" : "57",
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

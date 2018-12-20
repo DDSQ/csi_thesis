@@ -1,0 +1,54 @@
+library('dplyr')
+library( tidyr )
+library( dplyr )
+library( caret )
+library( lattice )
+library( ggplot2 ) 
+library(gridExtra)
+
+
+#knn scores csi
+csi_knn = read.csv('csiknn.csv')
+#knn  scores cb
+cb_knn = read.csv('knn_cb.csv')
+
+#---------------
+
+# csi set
+
+
+cb_knn$X <- NULL
+p_csi$X <- NULL
+# set to factor and numeric
+csi_knn$score = format(csi_knn$score, digits = 3)
+csi_knn$score<- as.numeric(csi_knn$score)
+csi_knn$model <- as.factor(csi_knn$scaling)
+csi_knn$fase <- as.factor(csi_knn$fase)
+
+# set to factor and numeric
+cb_knn$score = format(cb_knn$score, digits = 3)
+cb_knn$score<- as.numeric(cb_knn$score)
+cb_knn$model <- as.factor(cb_knn$scaling)
+cb_knn$fase <- as.factor(cb_knn$fase)
+
+cb_k = ggplot(data = cb_knn, aes(x = scaling, y = score, fill = fase, label = score))+
+  geom_col(position = 'dodge')+
+  theme(plot.title = element_text(size=11), axis.title = element_text(size = 10))+
+  geom_text(size = 3, nudge_y = 0.05)+
+  theme_classic()+
+  labs(x = "change blindness task", y= 'score')+
+  scale_fill_discrete(guide = FALSE)+
+  scale_y_continuous(limits = c(0,1))
+
+csi_k = ggplot(data = csi_knn, aes(x = scaling, y = score, fill = fase, label = score))+
+  geom_col(position = 'dodge')+
+  theme(plot.title = element_text(size=11), axis.title = element_text(size = 10))+
+  geom_text(size = 3, nudge_y = 0.05)+
+  theme_classic()+
+  labs(x = "crime scene inspection task", y= 'score')+
+  scale_fill_discrete(name = "Train/Test")+
+  scale_y_continuous(limits = c(0,1))
+
+grid.arrange(csi_k, cb_k, ncol= 2, top = 'KNN Results')
+
+
