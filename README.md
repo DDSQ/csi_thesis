@@ -1,6 +1,9 @@
 CSI_THESIS
 ==============================
 This project contains everything regarding a master thesis project. Subject is an investigation into differences between crime scene investigators (experts vs novices) based on eyetracking data.
+==============================
+Code is still being edited at the moment!
+==============================
 
 Project Organization
 ------------
